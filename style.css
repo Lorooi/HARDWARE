@@ -83,6 +83,23 @@ nav{
     grid-template-rows: 1fr 1fr;
 }
 
+.escrita{
+    margin: 10px;
+    text-align: justify;
+    font-family:monospace;
+    font-size: 20px;
+    
+}
+
+.comeco{
+    text-align: center;
+    margin: 10px;
+    text-align: justify;
+    font-family:monospace;
+    font-size: 40px;
+    padding-left: 350px;
+}
+
 .anuncio{
    grid-column: 2;
    position: sticky;
@@ -98,26 +115,40 @@ nav{
 }
 .propaganda{
     margin: 15px;
-    display: grid;
+    justify-content: space-between;
+    display: flex;
     grid-column: 1;
     grid-row: 2;
     
 
 }
 
-.bordaanuncio{
-    border:black;
+.tanuncio{
+    border-radius: 25px;
     border-style: solid;
-    border-width: 5px;
-    border-radius: 50px;
-    width: 350px;
-    height: 350px;
+    border-color: black;
+    border-width: 3px;
 }
+
+.textoanuncio{
+    font-size: 30px;
+    padding: 3px;
+    margin-bottom: 5px;
+    
+
+}
+
+.preco{
+    padding: 3px;
+    color: #FF6500;
+    font-family: 'Lucida Sans';
+}
+
 .imagempropaganda{
+    padding: 70px;
     width: 300px;
     height: 300px;
-    padding: 5px;
-    
+    justify-content: center;
 }
 .footer{
     display: grid;
